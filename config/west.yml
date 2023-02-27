@@ -4,10 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ebastler
       url-base: https://github.com/ebastler
+    - name: zhiayang
+      url-base: https://github.com/zhiayang
   projects:
     - name: zmk
       remote: ebastler
-      revision: testbranch
+      revision: max17048_PR_TEST 
       import: app/west.yml
   self:
     path: config
